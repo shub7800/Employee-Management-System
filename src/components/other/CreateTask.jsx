@@ -14,7 +14,7 @@ const CreateTask = () => {
     const [newTask, setNewTask] = useState({})
 
     const submitHandler = (e) => {
-        e.preventDefault()
+        e.preventDefault()    
 
         setNewTask({ taskTitle, taskDescription, taskDate, category, active: false, newTask: true, failed: false, completed: false })
 
